@@ -12,5 +12,5 @@ export default function About() {
                 </Box>
             </Box>
         </>
-    )
+    );
 }
