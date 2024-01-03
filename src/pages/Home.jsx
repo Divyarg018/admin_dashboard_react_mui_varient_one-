@@ -85,6 +85,7 @@ export default function Home() {
                             <Grid item xs={8}>
                                 <Card sx={{ height: 60 + "vh" }}>
                                     <CardContent>
+                                        <BarChart />
                                     </CardContent>
                                 </Card>
                             </Grid>
