@@ -5,6 +5,7 @@ import AccordionDash from '../components/AccordionDash.jsx';
 import { Box, Card, CardContent, Stack, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import "../Dash.css";
+import BarChart from '../charts/BarChart.jsx';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
