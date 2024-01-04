@@ -9,9 +9,10 @@ export const data = [
     ["Canada", 500],
     ["France", 600],
     ["RU", 700],
+    ["India", 1200],
 ];
 
-export function GeoChart() {
+export default function GeoChart() {
     return (
         <Chart
             chartEvents={[
@@ -28,7 +29,7 @@ export function GeoChart() {
             ]}
             chartType="GeoChart"
             width="100%"
-            height="400px"
+            height="220px"
             data={data}
         />
     );
